@@ -10,7 +10,7 @@ pipeline{
 				echo "BUILD ID - $env.BUILD_ID"
 				echo "JOB_NAME - $env.JOB_NAME"
 				echo "BUILD_TAG - $env.BUILD_TAG"
-				echo "BUILD_URl - $env.BUILD_URL'
+				echo "BUILD_URl - $env.BUILD_URL"
 			}
 		}
 		stage('Test'){
